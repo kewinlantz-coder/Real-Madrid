@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Teknik & Verktyg | Webportfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                WEB<span>PORTFOLIO</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="projekt.html">Projekt</a></li>
+                <li><a href="loggbok.html">Loggbok</a></li>
+                <li><a href="historia.html">Webbens historia</a></li>
+                <li><a href="teknik.html" class="active">Teknik & Verktyg</a></li>
+                <li><a href="utveckling.html">Min utveckling</a></li>
+                <li><a href="om-mig.html">Om mig</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- INTRO -->
+        <section class="page-hero">
+
+            <p class="hero-small">TEKNIK & VERKTYG</p>
+
+            <h1>
+                Verktygen bakom <span>webbsidan.</span>
+            </h1>
+
+            <p>
+                För att skapa en modern hemsida behövs flera olika
+                tekniker och verktyg. Under kursen har jag framför allt
+                arbetat med HTML, CSS och JavaScript.
+            </p>
+
+        </section>
+
+
+        <!-- TRE HUVUDTEKNIKER -->
+        <section class="tech-main">
+
+            <div class="section-heading">
+
+                <p>GRUNDEN</p>
+
+                <h2>HTML, CSS & JavaScript</h2>
+
+                <span>
+                    De här tre teknikerna arbetar tillsammans för att
+                    skapa moderna och interaktiva webbplatser.
+                </span>
+
+            </div>
+
+
+            <div class="tech-main-grid">
+
+                <!-- HTML -->
+                <article class="tech-big-card">
+
+                    <div class="tech-top">
+                        <span class="tech-number">01</span>
+                        <span class="tech-symbol">&lt;/&gt;</span>
+                    </div>
+
+                    <p class="history-label">STRUKTUR</p>
+
+                    <h2>HTML</h2>
+
+                    <p>
+                        HTML står för HyperText Markup Language och används
+                        för att skapa strukturen på en webbsida.
+                    </p>
+
+                    <p>
+                        Med HTML kan jag skapa exempelvis rubriker,
+                        texter, bilder, länkar, knappar och olika
+                        sektioner.
+                    </p>
+
+                    <div class="tech-code">
+                        &lt;h1&gt;Min hemsida&lt;/h1&gt;<br>
+                        &lt;p&gt;Min första text.&lt;/p&gt;
+                    </div>
+
+                </article>
+
+
+                <!-- CSS -->
+                <article class="tech-big-card">
+
+                    <div class="tech-top">
+                        <span class="tech-number">02</span>
+                        <span class="tech-symbol">{ }</span>
+                    </div>
+
+                    <p class="history-label">DESIGN</p>
+
+                    <h2>CSS</h2>
+
+                    <p>
+                        CSS står för Cascading Style Sheets och används
+                        för att bestämma hur hemsidan ska se ut.
+                    </p>
+
+                    <p>
+                        Med CSS arbetar jag med färger, storlekar,
+                        mellanrum, animationer, layout och hur sidan
+                        fungerar på olika skärmstorlekar.
+                    </p>
+
+                    <div class="tech-code">
+                        h1 {<br>
+                        &nbsp;&nbsp;color: white;<br>
+                        &nbsp;&nbsp;font-size: 50px;<br>
+                        }
+                    </div>
+
+                </article>
+
+
+                <!-- JAVASCRIPT -->
+                <article class="tech-big-card">
+
+                    <div class="tech-top">
+                        <span class="tech-number">03</span>
+                        <span class="tech-symbol">JS</span>
+                    </div>
+
+                    <p class="history-label">FUNKTIONER</p>
+
+                    <h2>JavaScript</h2>
+
+                    <p>
+                        JavaScript används för att göra webbsidor mer
+                        interaktiva och lägga till olika funktioner.
+                    </p>
+
+                    <p>
+                        Det kan till exempel användas för menyer,
+                        animationer, quiz, formulär och saker som händer
+                        när användaren klickar på något.
+                    </p>
+
+                    <div class="tech-code">
+                        button.addEventListener("click", () => {<br>
+                        &nbsp;&nbsp;console.log("Klick!");<br>
+                        });
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- HUR DE FUNGERAR TILLSAMMANS -->
+        <section class="tech-together">
+
+            <div class="tech-together-text">
+
+                <p class="history-label">SAMARBETE</p>
+
+                <h2>Hur fungerar de tillsammans?</h2>
+
+                <p>
+                    HTML, CSS och JavaScript har olika uppgifter, men
+                    tillsammans skapar de en komplett webbplats.
+                </p>
+
+                <p>
+                    Jag brukar tänka att HTML är själva grunden,
+                    CSS bestämmer hur allt ska se ut och JavaScript
+                    bestämmer vad som ska kunna hända på sidan.
+                </p>
+
+            </div>
+
+
+            <div class="tech-flow">
+
+                <div class="flow-item">
+                    <span>01</span>
+                    <h3>HTML</h3>
+                    <p>Struktur</p>
+                </div>
+
+                <div class="flow-arrow">→</div>
+
+                <div class="flow-item">
+                    <span>02</span>
+                    <h3>CSS</h3>
+                    <p>Design</p>
+                </div>
+
+                <div class="flow-arrow">→</div>
+
+                <div class="flow-item">
+                    <span>03</span>
+                    <h3>JS</h3>
+                    <p>Funktion</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- VERKTYG -->
+        <section class="tools-section">
+
+            <div class="section-heading">
+
+                <p>MINA VERKTYG</p>
+
+                <h2>Verktyg jag använder</h2>
+
+                <span>
+                    Förutom programmeringsspråken använder jag olika
+                    program och verktyg när jag utvecklar hemsidor.
+                </span>
+
+            </div>
+
+
+            <div class="tools-grid">
+
+                <article class="tool-card">
+
+                    <div class="tool-icon">VS</div>
+
+                    <h3>Visual Studio Code</h3>
+
+                    <p>
+                        Visual Studio Code är programmet jag främst
+                        använder för att skriva och organisera min kod.
+                    </p>
+
+                    <span>KODREDAKTÖR</span>
+
+                </article>
+
+
+                <article class="tool-card">
+
+                    <div class="tool-icon">🌐</div>
+
+                    <h3>Webbläsare</h3>
+
+                    <p>
+                        Jag använder webbläsaren för att testa hemsidan
+                        och kontrollera att allt fungerar som det ska.
+                    </p>
+
+                    <span>TESTNING</span>
+
+                </article>
+
+
+                <article class="tool-card">
+
+                    <div class="tool-icon">&lt;/&gt;</div>
+
+                    <h3>Developer Tools</h3>
+
+                    <p>
+                        Webbläsarens utvecklarverktyg hjälper mig att
+                        hitta fel och testa ändringar i HTML och CSS.
+                    </p>
+
+                    <span>FELSÖKNING</span>
+
+                </article>
+
+
+                <article class="tool-card">
+
+                    <div class="tool-icon">GH</div>
+
+                    <h3>GitHub</h3>
+
+                    <p>
+                        GitHub kan användas för att spara kod online,
+                        hålla koll på olika versioner och dela projekt.
+                    </p>
+
+                    <span>VERSIONHANTERING</span>
+
+                </article>
+
+
+                <article class="tool-card">
+
+                    <div class="tool-icon">📁</div>
+
+                    <h3>Filstruktur</h3>
+
+                    <p>
+                        Jag organiserar HTML, CSS, JavaScript och bilder
+                        i olika mappar för att hålla projekten tydliga.
+                    </p>
+
+                    <span>ORGANISERING</span>
+
+                </article>
+
+
+                <article class="tool-card">
+
+                    <div class="tool-icon">📱</div>
+
+                    <h3>Responsiv design</h3>
+
+                    <p>
+                        Jag använder media queries för att anpassa
+                        hemsidan till mobil, surfplatta och dator.
+                    </p>
+
+                    <span>WEBBDESIGN</span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXEMPEL -->
+        <section class="responsive-section">
+
+            <div>
+
+                <p class="history-label">RESPONSIV DESIGN</p>
+
+                <h2>En hemsida ska fungera överallt.</h2>
+
+                <p>
+                    En viktig del inom modern webbutveckling är att
+                    hemsidan fungerar på olika skärmstorlekar.
+                </p>
+
+                <p>
+                    Därför testar jag mina sidor både på större
+                    datorskärmar och mindre mobilskärmar.
+                </p>
+
+            </div>
+
+
+            <div class="devices">
+
+                <div class="desktop-device">
+
+                    <div class="device-screen">
+                        <span>DESKTOP</span>
+                        <h3>1200px+</h3>
+                    </div>
+
+                </div>
+
+
+                <div class="mobile-device">
+
+                    <div class="device-screen">
+                        <span>MOBILE</span>
+                        <h3>390px</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>WEB<span>PORTFOLIO</span></h3>
+                <p>Min utveckling inom webbutveckling.</p>
+            </div>
+
+            <p>Webbutveckling • Gymnasiet</p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
